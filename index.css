@@ -1,8 +1,8 @@
 
 html {
-    background-image: url('./img/animate-char.png');
     background-repeat: no-repeat;
     background-position: top right;
+    background-color: rgb(240, 236, 241)
 }
 
 body{
@@ -10,18 +10,22 @@ body{
 }
 
 /* All-around uses */
-.rubik-font {
-    font-family: 'Rubik', sans-serif;
+.arsenal-font {
+    font-family: 'Arsenal', sans-serif;
+}
+
+img {
+    height: 100%;
 }
 
 h1 {
-    font-family: 'Rubik', sans-serif;
-    color: rgb(14,94,140);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: rgb(51,51,51);
     text-align: center;
 }
 
 p {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     color: rgb(51,51,51);
     word-break: break-word;
 }
@@ -39,33 +43,36 @@ hr {
 /* Header */
 .title-background-wrapper {
     padding: 0 0 5em 0;
-    background-image:linear-gradient(to bottom right, rgba(21,138,208, 1), rgba(21,138,208, 0.8), rgba(21,138,208, 0.5), rgba(21,138,208, 0.4));
-
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    background-image: url("./img/top-render3.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    height: 62em;
+    background-position: center;
 }
 
 header{
-    margin-top: 5em;
+    margin-top: 1em;
 }
 
 .title {
-    margin: 3em auto;
+    margin: 1em auto;
     text-align: center;
 }
 
 .text-wrapper {
-    padding: 20px 0
+    padding: 5px 0
 }
 
 .name {
-    font-family: 'Rubik', sans-serif;
-    /* font-size: 40px; */
+    font-weight: bold;
+    font-style: italic;
     margin: 5px;
     color: white
 }
 
 .headline {
     margin: 10px 0;
+    font-style: italic;
     color: white;
 }
 
@@ -78,7 +85,7 @@ li {
     display: inline-block;
     margin: 5px 8px;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     transition: transform .1s;
 }
 
@@ -91,8 +98,18 @@ li:active{
     color: lightgrey;
 }
 
+.top-line{
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 68px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 1.06;
+    letter-spacing: 1.9px;
+}
+
 .bio-section {
-    max-width: 900px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -107,6 +124,15 @@ li:active{
 /* ====================== */
 
 /* Project Section */
+.project-headline {
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.white {
+    color: white;
+}
 .tech-used {
     font-weight: bold;
     color: rgb(21,138,208)
@@ -131,8 +157,12 @@ img {
 }
 
 .desc-section{
-    max-width: 900px;  
-    margin: 2 auto; 
+    max-width: 450px;  
+    margin: 2px auto;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 25px 20px;
+    background-color: #151024;
 }
 
 .desc-section > h1 {
@@ -147,35 +177,46 @@ img {
 .map-location {
     background-image: url('./img/map-location.png');
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top;
 }
 
 .invit-ims{
     background-image: url('./img/invit-ims.png');
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top;
 }
 
 .coteam-img {
     background-image: url('./img/group.png');
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top;
 }
 
 .white {
     color: white;
 }
 
+.link-wrapper {
+    border-radius: 5px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+   
+    
+}
+
 .github-link {
     text-decoration: none;
 }
 
-.github-link > p{
-    color: rgb(21,138,208);
+.link-wrapper > p{
+    color: #151024;
+    font-weight: bold;
     transition: transform .1s;
+    padding: 15px;
 }
 
-.github-link > p:hover {
+.link-wrapper > p:hover {
     transform: scale(1.04);
 }
 /* ================== */
