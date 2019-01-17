@@ -4,8 +4,8 @@ My portfolio specifically designed for Jumpcut. This is my portfolio that consis
 ## Demo
 https://martintirtawisata.github.io/jumpcut-portfolio/
 
-##Screenshots
-![](img/registerpage.png)
+## Screenshots
+![](img/portfolio1.png)
 
 ## Technology
 HTML, CSS
